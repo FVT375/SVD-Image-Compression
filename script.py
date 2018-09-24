@@ -50,7 +50,7 @@ def to_rgb():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('image', type=str)
-    parser.add_argument('n', type=int, default=50)
+    parser.add_argument('-n', type=int, default=50)
     parser.add_argument('--grayscale', action='store_true')
     args = parser.parse_args()
 
